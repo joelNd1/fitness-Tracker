@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toggle button tests toggle button is on screen and rendered as expected 1`] = `
+<body>
+  <div>
+    <div
+      class="App"
+    >
+      <h1>
+        crud 1 with mern
+      </h1>
+      <div
+        class="form-container"
+      >
+        <label>
+          what were you training:
+        </label>
+        <input
+          type="text"
+        />
+        <label>
+          what is the date:
+        </label>
+        <input
+          type="date"
+        />
+        <button>
+          Add Session
+        </button>
+        <br />
+        <br />
+        <button
+          data-testid="toggle-button"
+        >
+          Toggle View
+        </button>
+      </div>
+      <div
+        class="training-list-container"
+      >
+        <h1
+          data-testid="training-head"
+        >
+          Training Record
+        </h1>
+        <div
+          class="training-list-item"
+        >
+          <h1>
+            Push Session
+          </h1>
+          <div
+            class="Update-container"
+          >
+            <input
+              placeholder="updated version ..."
+              type="text"
+            />
+            <button>
+              update
+            </button>
+          </div>
+          <h1>
+            5/1/2024, 11:13:09 PM
+          </h1>
+          <button>
+            Delete
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
